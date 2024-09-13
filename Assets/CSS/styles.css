@@ -1,0 +1,298 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+div#texto {
+    font-size: medium;
+    font-weight: large;
+    text-align: center;
+    line-height: 200%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    color: #ffffff;
+    height: 80px;
+}
+
+div#titulo {
+    margin-top: 30px;
+}
+
+ol#imghead {
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+}
+
+div#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+}
+
+ol#nav {
+    margin-left: 60px;
+}
+
+div#Banner-1 {
+    background-image: url(/Assets/Imagens/Banner-grupo11.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+div#texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+div#integrantes {
+    display: flex;
+    flex-direction: column;
+}
+
+div#cardgroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div#cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    width: 290px;
+    height: 500px;
+    border: solid 1px;
+    border-radius: 20px;
+    margin: 30px 40px;
+    text-align: center;
+}
+
+div#cards:hover {
+    background-image: linear-gradient(to right, #00229E, #6E1299, #FE0094);
+    color: #fff0fa;
+}
+
+
+div.foto {
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    border: solid 1px;
+    margin-top: 25px;
+    background-size: contain;
+}
+
+div#Gabriel {
+    background-image: url(/Assets/Imagens/Screenshot_1.jpg);
+}
+
+div#Hannya {
+    background-image: url(/Assets/Imagens/eu.jpg);
+}
+
+div#Luma {
+    background-image: url(/Assets/Imagens/Screenshot_2.jpg);
+}
+
+div#Mariana {
+    background-image: url(/Assets/Imagens/Screenshot_1\ mari.jpg);
+}
+
+div#x {
+    background-image: url(/Assets/Imagens/Screenshot_3.jpg);
+}
+
+div#nome {
+    margin-top: 10px;
+}
+
+div#bio {
+    display: flex;
+    margin: 0px 5px;
+    font-size: 18px;
+}
+
+a.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff0fa;
+}
+
+.btn:hover {
+    background-color: #a0a0a0;
+}
+
+
+#overlay,
+#overlay2,
+#overlay-gabriel,
+#overlay-gabriel2,
+#overlay-luma,
+#overlay-luma2,
+#overlay-mariana,
+#overlay-mariana2,
+#overlay-thais,
+#overlay-thais2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Fundo semi-transparente */
+    display: none;
+    justify-content: center;
+    color: white;
+    z-index: 10;
+
+}
+
+/* Quando o id estiver como alvo */
+#overlay:target,
+#overlay2:target,
+#overlay-gabriel:target,
+#overlay-gabriel2:target,
+#overlay-luma:target,
+#overlay-luma2:target,
+#overlay-mariana:target,
+#overlay-mariana2:target,
+#overlay-thais:target,
+#overlay-thais2:target {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.close-button:hover {
+    color: #ff0000;
+}
+
+/**
+Nessa área do código, apenas será tratado o OVERVIEW
+**/
+
+#overview {
+    background-image: url(/Assets/Imagens/fundo-overview.png);
+    width: 600px;
+    height: 800px;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 50px 0px 0px 540px;
+}
+
+img#foto-overview {
+    border-radius: 50%;
+}
+
+div#infos-overview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 30px;
+    line-height: 15px;
+}
+
+div#infos-overview-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 40px;
+}
+
+div#infos-overview-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+div#infos-overview-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+}
+
+div#mbti-overview {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+div#buttons-overview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+a.btn-overview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff0fa;
+}
+
+.btn-overview:hover {
+    background-color: #a0a0a0;
+}
+
+#sobreposicao {
+    display: flex;
+    justify-content: center;
+}
